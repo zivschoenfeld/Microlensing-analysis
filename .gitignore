@@ -1,7 +1,6 @@
 ```text
 # Ignore OGLE data files
 data/
-*.dat
 *.txt
 *.csv
-*blg*/
+
