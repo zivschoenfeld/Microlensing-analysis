@@ -36,3 +36,12 @@ The goal of this project is to automate the detection and parameter extraction o
 │   └── statistics.py    # Bootstrap and error analysis modules
 ├── notebooks/          # Jupyter notebooks for exploratory data analysis (EDA)
 └── README.md
+
+## ⚠️ Data Usage & Acknowledgments
+The data used in this analysis is from the **OGLE-IV Early Warning System (EWS)**.
+This repository contains only the analysis code. The photometric data itself is not distributed here in compliance with OGLE data usage policies.
+
+**Citation:**
+> Udalski et al., 2015, Acta Astron., 65, 1.
+
+For more information or to access the data, please visit the [OGLE EWS System](http://ogle.astrouw.edu.pl/ogle4/ews/ews.html).
