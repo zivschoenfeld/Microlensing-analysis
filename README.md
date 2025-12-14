@@ -20,7 +20,7 @@ The photometric data used in this project is proprietary to the OGLE project and
 When using this code or referring to the underlying data, please cite the standard system:
 > Udalski et al., 2015, Acta Astron., 65, 1.
 
-For data access, please visit: [OGLE EWS System](http://ogle.astrouw.edu.pl/ogle4/ews/ews.html)
+For data access, please visit: [OGLE home page]([[http://ogle.astrouw.edu.pl/ogle4/ews/ews.html](https://ogle.astrouw.edu.pl/)](https://ogle.astrouw.edu.pl/))
 
 ## 🚀 Key Features
 * **Data Processing:** Automated cleaning and conversion of photometric magnitude data to flux.
