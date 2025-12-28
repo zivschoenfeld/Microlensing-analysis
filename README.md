@@ -3,18 +3,20 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
 ## 📌 Overview
-This repository contains a Python-based data analysis pipeline designed to process and model astronomical light curves from the **OGLE-IV (Optical Gravitational Lensing Experiment)** survey.
+This repository hosts an **independent reanalysis pipeline** for gravitational microlensing events from the **OGLE-IV survey**.
 
-The goal of this project is to automate the detection and parameter extraction of gravitational microlensing events using statistical modeling, non-linear curve fitting, and likelihood analysis.
+Developed as part of a lab project for the **Physics Laboratory C** course at **Tel Aviv University**, this tool validates the physical parameters of microlensing events (e.g., OGLE-2024-BLG-0393) by implementing a custom statistical pipeline that performs:
+1.  **Data Processing:** Processing raw photometric data from the Early Warning System.
+2.  **Theoretical Modeling:** Fitting the Paczyński Single Lens Model (PSPL).
+3.  **Statistical Inference:** robust parameter estimation and data fitting using statistical methods such as: Linear Least Squares, Bootstrap, Non-Linear Optimization, and Likelihood Grid Search.
 
 ## 🚀 Key Features & Methodology
 The pipeline executes the following scientific workflow:
 
 1.  **Data Ingestion:** User-configurable loading of photometric data.
 2.  **Preprocessing:** Automated cleaning and conversion of astronomical Magnitude to linear Flux.
-3.  **Initialization (Linear Fit):** Fits a Paczyński curve using **Linear Least Squares (LLS)** by approximating the peak as a parabola to derive initial parameter guesses ($t_0, u_{min}, t_E$).
+3.  **Initialization (Linear Fit):** Fits a Paczyński curve using **Linear Least Squares (LLS)** by approximating the peak as a parabola to derive initial parameter guesses ($t_0, u_{min}, \tau$).
 4.  **Bootstrap Analysis:** Estimates confidence intervals for the linear fit using **Bootstrap Resampling**.
 5.  **Optimization (Non-Linear Fit):** Performs a full **Non-Linear Least Squares** fit (Levenberg-Marquardt algorithm) to refine the physical model over the entire dataset.
 6.  **Uncertainty Quantification:** Visualizes parameter probability distributions and correlations using a **4D Grid Search** and **Corner Plots**.
