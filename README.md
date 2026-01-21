@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-## 📌 Overview
+## Overview
 This repository hosts an **independent reanalysis pipeline** for gravitational microlensing events from the **OGLE-IV survey**.
 
 Developed as part of a lab project for the **Physics Laboratory C** course at **Tel Aviv University**, this tool validates the physical parameters of microlensing events (e.g., OGLE-2024-BLG-0393) by implementing a custom statistical pipeline that performs:
@@ -11,7 +11,7 @@ Developed as part of a lab project for the **Physics Laboratory C** course at **
 2.  **Theoretical Modeling:** Fitting the Paczyński Single Lens Model (PSPL).
 3.  **Statistical Inference:** robust parameter estimation and data fitting using statistical methods such as: Linear Least Squares, Bootstrap, Non-Linear Optimization, and Likelihood Grid Search.
 
-## 🚀 Key Features & Methodology
+## Key Features & Methodology
 The pipeline executes the following scientific workflow:
 
 1.  **Data Ingestion:** User-configurable loading of photometric data.
@@ -21,7 +21,7 @@ The pipeline executes the following scientific workflow:
 5.  **Optimization (Non-Linear Fit):** Performs a full **Non-Linear Least Squares** fit (Levenberg-Marquardt algorithm) to refine the physical model over the entire dataset.
 6.  **Uncertainty Quantification:** Visualizes parameter probability distributions and correlations using a **4D Grid Search** and **Corner Plots**.
 
-## ⚠️ Data Usage (Manual Action Required)
+## Data Usage
 **Important:** The raw photometric data is proprietary to the OGLE project and is **not included** in this repository.
 
 To reproduce the analysis for a specific event (e.g., `OGLE-2024-BLG-0393`):
@@ -35,7 +35,7 @@ To reproduce the analysis for a specific event (e.g., `OGLE-2024-BLG-0393`):
 **Citation:**
 > Udalski et al., 2015, Acta Astron., 65, 1.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Core:** `Python 3.x`, `NumPy`, `Pandas`
 * **Scientific Computing:** `SciPy` (Optimization & Signal Processing)
 * **Visualization:** `Matplotlib`, `Seaborn`, `Corner.py`
