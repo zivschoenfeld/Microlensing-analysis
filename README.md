@@ -49,17 +49,6 @@ To reproduce the analysis for a specific event (e.g., `OGLE-2024-BLG-0393`):
  ```
 
 
-
-
-## Collaborators
-
-<!-- readme: collaborators -start -->
-<!-- readme: collaborators -end -->
-
-## Contributors
-
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
-Thanks to the following contributors:
+## Authors
 - [Ziv Schoenfeld](https://github.com/zivschoenfeld)
 - [Tomer Lahav](https://github.com/TomerLahav)
