@@ -46,3 +46,20 @@ To reproduce the analysis for a specific event (e.g., `OGLE-2024-BLG-0393`):
 ├── model_utils.py        # Library of physical models (Paczyński) and analysis functions.
 ├── requirements.txt      # Python dependencies           
 └── README.md             # Project documentation
+ ```
+
+
+
+
+## Collaborators
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+Thanks to the following contributors:
+- [Ziv Schoenfeld](https://github.com/zivschoenfeld)
+- [Tomer Lahav](https://github.com/TomerLahav)
